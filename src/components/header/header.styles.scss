@@ -1,0 +1,21 @@
+.header_container{
+    display:flex;
+    justify-content: space-between;
+    height:50px;
+    align-items: center;
+    padding:0.5em 10%;
+    padding-right:17%;
+    & .header_title{
+      font-weight: 800;
+    }
+    & .header_mode{
+      font-weight:600;
+    }
+    & .header_mode{
+        cursor:pointer;
+    }
+}
+  .dark-mode-header{
+    background:hsl(209, 23%, 22%);
+    color:white;
+  }

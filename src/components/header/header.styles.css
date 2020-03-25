@@ -1,0 +1,32 @@
+.header_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5em 10%;
+  padding-right: 17%;
+}
+
+.header_container .header_title {
+  font-weight: 800;
+}
+
+.header_container .header_mode {
+  font-weight: 600;
+}
+
+.header_container .header_mode {
+  cursor: pointer;
+}
+
+.dark-mode-header {
+  background: #2b3945;
+  color: white;
+}
+/*# sourceMappingURL=header.styles.css.map */

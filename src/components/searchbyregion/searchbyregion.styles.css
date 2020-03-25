@@ -1,0 +1,31 @@
+.select_container {
+  border: none;
+  padding: 1em;
+  font-size: 0.8rem;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  border-radius: 3px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+}
+
+.select_container:focus {
+  outline: none;
+}
+
+.select_container option {
+  background: white;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+}
+
+.dark-mode-header {
+  background: #2b3945;
+  color: white;
+}
+
+.dark-mode-header option {
+  background: #2b3945;
+  color: white;
+}
+/*# sourceMappingURL=searchbyregion.styles.css.map */

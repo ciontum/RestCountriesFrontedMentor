@@ -1,0 +1,36 @@
+.card_container{
+    width:250px;
+    border-radius:3px;
+    background:white;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    margin-bottom:3em;
+    & img{
+        width:100%;
+        border-top-left-radius:3px;
+        border-top-right-radius: 3px;
+    }
+    & .card_content{
+        display:flex;
+        flex-direction: column;
+        padding:1em;
+        & .card_title{
+            margin-bottom:1em;
+            font-weight:800;
+        }
+        & .card_details{
+            display:flex;
+            flex-direction: column;
+            font-size:0.8rem;
+            & span{
+                font-weight:600;
+                & span{
+                    font-weight:normal;
+                }
+            }
+        }
+    }
+}
+.dark-mode-header{
+    background:hsl(209, 23%, 22%);
+    color:white;
+  }

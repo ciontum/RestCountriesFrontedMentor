@@ -1,0 +1,28 @@
+.search_field_container{
+    height:50px;
+    width:340px;
+    backgrond:white;
+    border-radius:3px;
+    display:flex;
+    align-items: center;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+
+    & .aws-search{
+        padding:0 1em;
+    }
+    & .search_field_input{
+        border:none;
+        width:100%;
+        background: hsl(0, 0%, 98%);
+        &:focus{
+            outline:none;
+        }
+    }
+}
+.dark-mode-header{
+    background:hsl(209, 23%, 22%);
+    & .search_field_input{
+        background:hsl(209, 23%, 22%);
+    }
+    color:white;
+  }

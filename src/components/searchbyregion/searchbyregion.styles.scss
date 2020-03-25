@@ -1,0 +1,27 @@
+.select_container{
+    border:none;
+    padding:1em;
+    font-size:0.8rem;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    border-radius:3px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight:600;
+    &:focus{
+        outline:none;
+    }
+    & option {
+        background:white;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight:600;
+    }
+}
+
+.dark-mode-header{
+    background:hsl(209, 23%, 22%);
+    color:white;
+    & option{
+        
+    background:hsl(209, 23%, 22%);
+    color:white;
+    }
+  }

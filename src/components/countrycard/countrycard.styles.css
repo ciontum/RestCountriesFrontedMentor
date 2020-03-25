@@ -1,0 +1,55 @@
+.card_container {
+  width: 250px;
+  border-radius: 3px;
+  background: white;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  margin-bottom: 3em;
+}
+
+.card_container img {
+  width: 100%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.card_container .card_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1em;
+}
+
+.card_container .card_content .card_title {
+  margin-bottom: 1em;
+  font-weight: 800;
+}
+
+.card_container .card_content .card_details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 0.8rem;
+}
+
+.card_container .card_content .card_details span {
+  font-weight: 600;
+}
+
+.card_container .card_content .card_details span span {
+  font-weight: normal;
+}
+
+.dark-mode-header {
+  background: #2b3945;
+  color: white;
+}
+/*# sourceMappingURL=countrycard.styles.css.map */

@@ -1,0 +1,35 @@
+.container{
+    padding:0em 10%;
+    padding-right:17%;
+    background: hsl(0, 0%, 98%);
+   
+}
+.search_container{
+    padding:2em 0;
+    display:flex;
+    justify-content: space-between;
+}
+.dark-mode{
+    background:hsl(207, 26%, 17%);
+  }
+  .dark-mode-header{
+    background:hsl(209, 23%, 22%);
+  }
+  @media screen and (max-width:750px){
+    .container,.search_container{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding:0;
+      width:100%;
+    }
+    .search_container{
+      margin-top:1em;
+      margin-bottom:1em;
+      padding:0 1em;
+    }
+    .search_container .search_field_container{
+      margin-bottom:1em;
+    }
+  }
