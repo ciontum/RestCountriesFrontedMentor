@@ -5,6 +5,8 @@
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
           box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
   margin-bottom: 3em;
+  -webkit-transition: background 500ms ease-in-out;
+  transition: background 500ms ease-in-out;
 }
 
 .card_container img {
@@ -46,10 +48,5 @@
 
 .card_container .card_content .card_details span span {
   font-weight: normal;
-}
-
-.dark-mode-header {
-  background: #2b3945;
-  color: white;
 }
 /*# sourceMappingURL=countrycard.styles.css.map */

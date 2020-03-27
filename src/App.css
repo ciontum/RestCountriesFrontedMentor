@@ -1,8 +1,7 @@
 .container{
     padding:0em 10%;
-    padding-right:17%;
     background: hsl(0, 0%, 98%);
-   
+    transition:background 500ms ease-in-out,color 1000ms ease-in-out;
 }
 .search_container{
     padding:2em 0;
@@ -11,9 +10,12 @@
 }
 .dark-mode{
     background:hsl(207, 26%, 17%);
+    color:white;
+    transition:background 500ms ease-in-out,color 1000ms ease-in-out;
   }
   .dark-mode-header{
-    background:hsl(209, 23%, 22%);
+    background:#2b3945;
+    transition:background 500ms ease-in-out,color 1000ms ease-in-out;
   }
   @media screen and (max-width:750px){
     .container,.search_container{

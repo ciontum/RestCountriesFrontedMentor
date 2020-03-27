@@ -4,6 +4,7 @@
     background:white;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
     margin-bottom:3em;
+    transition:background 500ms ease-in-out;
     & img{
         width:100%;
         border-top-left-radius:3px;
@@ -30,7 +31,3 @@
         }
     }
 }
-.dark-mode-header{
-    background:hsl(209, 23%, 22%);
-    color:white;
-  }

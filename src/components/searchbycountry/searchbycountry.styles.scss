@@ -14,6 +14,7 @@
         border:none;
         width:100%;
         background: hsl(0, 0%, 98%);
+        transition:background 500ms ease-in-out,color 1000ms ease-out;
         &:focus{
             outline:none;
         }
@@ -21,8 +22,10 @@
 }
 .dark-mode-header{
     background:hsl(209, 23%, 22%);
+    transition:background 500ms ease-in-out,color 1000ms ease-out;
     & .search_field_input{
         background:hsl(209, 23%, 22%);
+        transition:background 500ms ease-in-out,color 1000ms ease-out;
     }
     color:white;
   }

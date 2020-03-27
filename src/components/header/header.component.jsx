@@ -4,10 +4,12 @@ import "./header.styles.css"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faMoon} from "@fortawesome/free-solid-svg-icons"
 import {faSun} from "@fortawesome/free-solid-svg-icons"
+import { useHistory } from "react-router-dom"
 const Header=({setDarkClass,darkClass})=>{
+    const history=useHistory();
     return(
         <div className={darkClass ? "header_container dark-mode-header" : "header_container"}>
-                <span className="header_title">Where in the world?</span>
+                <span className="header_title" onClick={()=>history.push('')}>Where in the world?</span>
                 {
                 darkClass===false?
                 <div>

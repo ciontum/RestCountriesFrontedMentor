@@ -4,6 +4,8 @@ import Header from './components/header/header.component';
 import SearchField from './components/searchbycountry/searchbycountry.component';
 import CountryList from './components/countrylist/countrylist.component';
 import SearchRegion from './components/searchbyregion/searchbyregion.component';
+import { Switch, Route } from 'react-router-dom';
+import CountryPage from './components/countrypage/countrypage.component';
 
 function App() {
   const [countries,setCountries]=useState([]);
@@ -21,13 +23,20 @@ function App() {
   return (
       <>
     <Header darkClass={darkClass} setDarkClass={setDarkClass}/>
+    <Switch>
+    <Route exact path="/" render={props=>{
+      return(
     <div className={classAdd.join` `}>
     <div className="search_container">
       <SearchField darkClass={darkClass} setCountries={setCountries} region={region}/>
       <SearchRegion darkClass={darkClass} setRegion={setRegion}/ >
     </div>
     <CountryList darkClass={darkClass} countryList={countries} />
-    </div>
+    </div>)
+    }
+    }/>
+    <Route path="/country/:countryName" render={props=><CountryPage {...props} darkClass={darkClass}/>} />
+    </Switch>
     </>
   );
 }

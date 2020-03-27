@@ -1,10 +1,11 @@
 .header_container{
-    display:flex;
-    justify-content: space-between;
-    height:50px;
-    align-items: center;
-    padding:0.5em 10%;
-    padding-right:17%;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  padding:0 10%;
+  border-bottom: 2px solid hsl(0, 0%, 98%);
+  transition:background 500ms ease-in-out,color 1000ms ease-in-out;
     & .header_title{
       font-weight: 800;
     }
@@ -16,6 +17,5 @@
     }
 }
   .dark-mode-header{
-    background:hsl(209, 23%, 22%);
-    color:white;
+    border-color:hsl(207, 26%, 17%);
   }

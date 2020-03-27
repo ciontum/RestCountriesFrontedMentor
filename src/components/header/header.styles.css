@@ -5,12 +5,14 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 50px;
+  height: 60px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0.5em 10%;
-  padding-right: 17%;
+  padding: 0 10%;
+  border-bottom: 2px solid #fafafa;
+  -webkit-transition: background 500ms ease-in-out,color 1000ms ease-in-out;
+  transition: background 500ms ease-in-out,color 1000ms ease-in-out;
 }
 
 .header_container .header_title {
@@ -26,7 +28,6 @@
 }
 
 .dark-mode-header {
-  background: #2b3945;
-  color: white;
+  border-color: #202c37;
 }
 /*# sourceMappingURL=header.styles.css.map */

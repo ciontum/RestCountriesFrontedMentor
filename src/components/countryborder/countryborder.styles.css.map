@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,yBAAyB,CAAA;EACrB,OAAO,EAAC,WAAW;EACnB,WAAW,EAAC,MAAM;EAClB,QAAQ,EAAE,MAAM;EAChB,aAAa,EAAE,IAAI;EACnB,UAAU,EAAE,CAAC,CAAC,GAAG,CAAC,GAAG,CAAC,mBAAmB,EAAE,CAAC,CAAC,GAAG,CAAC,GAAG,CAAC,mBAAmB;EACxE,YAAY,EAAC,KAAK;EAClB,aAAa,EAAC,GAAG;CAIpB;;AAHG,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EARxC,AAAA,yBAAyB,CAAA;IAShB,aAAa,EAAC,GAAG;GAEzB",
+    "sources": [
+        "countryborder.styles.scss"
+    ],
+    "names": [],
+    "file": "countryborder.styles.css"
+}

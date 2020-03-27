@@ -21,6 +21,8 @@
   border: none;
   width: 100%;
   background: #fafafa;
+  -webkit-transition: background 500ms ease-in-out,color 1000ms ease-out;
+  transition: background 500ms ease-in-out,color 1000ms ease-out;
 }
 
 .search_field_container .search_field_input:focus {
@@ -29,10 +31,14 @@
 
 .dark-mode-header {
   background: #2b3945;
+  -webkit-transition: background 500ms ease-in-out,color 1000ms ease-out;
+  transition: background 500ms ease-in-out,color 1000ms ease-out;
   color: white;
 }
 
 .dark-mode-header .search_field_input {
   background: #2b3945;
+  -webkit-transition: background 500ms ease-in-out,color 1000ms ease-out;
+  transition: background 500ms ease-in-out,color 1000ms ease-out;
 }
 /*# sourceMappingURL=searchbycountry.styles.css.map */

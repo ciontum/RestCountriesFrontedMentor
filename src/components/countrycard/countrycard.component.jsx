@@ -1,26 +1,14 @@
 import React from "react"
 import "./countrycard.styles.css"
+import {pointPopulation} from "./util"
+import { useHistory } from "react-router-dom";
 const CountryCard=({darkClass,country})=>{
-    const pointPopulation=(number)=>{
-            number=JSON.stringify(number);
-            let ct=0;
-            let aux=number;
-            if(number.length<=3)
-            return number;
-            for(let i=number.length-1;i>0;i--)
-            {
-              ct++;
-              if(ct===3)
-              {
-              aux=aux.slice(0,i) +"."+ aux.slice(i);
-              ct=0;
-              }
-          
-            }
-            return aux;
+    const history=useHistory();
+    const handleClick=name=>{
+        history.push("/country/"+name)
     }
     return(
-        <div className={darkClass ?"card_container dark-mode-header" : "card_container"}>
+        <div className={darkClass ?"card_container dark-mode-header" : "card_container"} onClick={()=>handleClick(country.name)}>
              <img src={country.flag} />
              <div className="card_content">
                  <div className="card_title">

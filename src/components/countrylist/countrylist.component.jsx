@@ -6,7 +6,7 @@ return (
     <div className="country-list_container">
     {
         countryList.map(country=>{
-           return  <CountryCard darkClass={darkClass} country={country} />
+           return  <CountryCard darkClass={darkClass} country={country}  />
         })
     }
     </div>

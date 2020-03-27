@@ -1,0 +1,12 @@
+.country-border_container{
+    padding:0.3em 1.8em;
+    font-weight:normal;
+    overflow: hidden;
+    text-overflow: clip;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    margin-right:0.5em;
+    border-radius:3px;
+    @media screen and (max-width:1300px) {
+         margin-bottom:1em;
+    }
+}
